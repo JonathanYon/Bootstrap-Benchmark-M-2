@@ -1,0 +1,15 @@
+.carousel-control-next,
+.carousel-control-prev {
+  width: 9% !important;
+  background-color: black;
+}
+.vl {
+  border-left: 1px solid green;
+  height: 20px;
+}
+.card {
+  margin-bottom: 20px;
+}
+.holder {
+  height: 500px;
+}
