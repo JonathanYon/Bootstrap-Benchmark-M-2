@@ -13,3 +13,13 @@
 .holder {
   height: 500px;
 }
+.col1 {
+  height: 500px;
+}
+.img-long {
+  height: 400px;
+  object-fit: cover;
+}
+.col4 {
+  height: 138px;
+}
