@@ -93,3 +93,10 @@ a {
 .txx {
   width: 1px;
 }
+/*************************************/
+.first {
+  height: 400px;
+}
+.imgs {
+  object-fit: cover;
+}
