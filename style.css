@@ -100,3 +100,7 @@ a {
 .imgs {
   object-fit: cover;
 }
+.card,
+.card-body:hover {
+  background-color: #f4b13d;
+}
