@@ -1,3 +1,10 @@
+body {
+  background-color: #1c0d26;
+}
+.jumbotron {
+  background-image: url(/gog-assets/carousel5.jpg);
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   width: 9% !important;
@@ -22,4 +29,19 @@
 }
 .col4 {
   height: 138px;
+  object-fit: cover;
+}
+.img-small {
+  width: 130px;
+  height: 80px;
+}
+.collast {
+  height: 500px;
+  width: 300px;
+  object-fit: cover;
+}
+.img-last-carous {
+  /* height: 536px; */
+  max-width: 233%;
+  object-fit: cover;
 }
