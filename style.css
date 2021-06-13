@@ -1,14 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
 body {
   background-color: #1c0d26;
 }
 .jumbotron {
   background-image: url(/gog-assets/carousel5.jpg);
 }
+.gloria {
+  font-family: "Gloria Hallelujah", cursive;
+}
+hr {
+  color: #f4b13d;
+  height: 2px;
+  border-width: 0;
+  background-color: #f4b13d;
+}
+.card-title,
+.card-text {
+  font-size: 13px;
+  font-weight: 700;
+}
 
 .carousel-control-next,
 .carousel-control-prev {
   width: 9% !important;
-  background-color: black;
+  background-color: transparent;
 }
 .vl {
   border-left: 1px solid green;
@@ -16,15 +32,14 @@ body {
 }
 .card {
   margin-bottom: 20px;
+  /* width: 21rem; */
 }
 .holder {
-  height: 500px;
+  height: 492px;
 }
-.col1 {
-  height: 500px;
-}
+
 .img-long {
-  height: 400px;
+  height: 330px;
   object-fit: cover;
 }
 .col4 {
@@ -44,4 +59,37 @@ body {
   /* height: 536px; */
   max-width: 233%;
   object-fit: cover;
+}
+.carousel-indicators {
+  bottom: -35px;
+}
+a {
+  text-decoration: none;
+  color: #af3c5a;
+}
+.txt {
+  font-size: 15px;
+}
+.card-body {
+  background-color: #1d7261;
+}
+.txt-sml {
+  text-decoration: line-through;
+  font-size: 10px;
+  color: #f4b13d;
+  font-weight: 700;
+}
+.percents {
+  width: 20px;
+  height: 12px;
+  background-color: #d94969;
+  margin-right: 10px;
+  padding: 3px 6px;
+}
+.windows {
+  color: #f4b13d;
+  /* padding-left: 10px; */
+}
+.txx {
+  width: 1px;
 }
